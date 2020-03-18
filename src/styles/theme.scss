@@ -1,0 +1,46 @@
+$colorBackground: #fff;
+$color-content-background: #eee;
+$color-text: #333;
+$color-subtext: #868686;
+$color-button-text: #333;
+$color-theme: #317ff7;
+$color-border: #bcbcbc;
+$color-btn-disabled: #d7d7d7;
+
+// 定义字体规范
+$font-size-small-s: 12px;
+$font-size-small: 14px;
+$font-size-medium: 16px;
+$font-size-medium-x: 18px;
+$font-size-large: 20px;
+$font-size-large-x: 22px;
+
+// 基本色调
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+$run:#00cc00;
+$wait: #ffcc33;
+$fail:#ff0000;
+$close: #3399ff;
+
+// 头部相关
+$headerBg: #333333;
+// 侧边栏相关
+$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+// 二级菜单色
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+// header、navbar、footer的层级
+$zIndex: 2000;

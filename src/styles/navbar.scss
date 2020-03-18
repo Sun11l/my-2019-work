@@ -1,0 +1,39 @@
+.app-wrapper {
+  .navbar {
+    height: 50px;
+    width: calc(100% - 54px);
+    overflow: hidden;
+    position: fixed;
+    top: 60px;
+    z-index: $zIndex;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+
+    .hamburger-container {
+      line-height: 46px;
+      height: 100%;
+      float: left;
+      cursor: pointer;
+      transition: background 0.3s;
+      -webkit-tap-highlight-color: transparent;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.025);
+      }
+    }
+
+    .breadcrumb-container {
+      float: left;
+    }
+    .bus-btn {
+      float: right;
+      line-height: 50px;
+      margin-right: 16px;
+    }
+  }
+}
+.app-wrapper.openSidebar{
+  .navbar {
+    width: calc(100% - #{$sideBarWidth});
+  }
+}

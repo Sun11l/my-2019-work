@@ -1,0 +1,139 @@
+// 选中菜单的背景色
+.el-menu-item.is-active {
+   // background-color: rgb(231, 235, 240) !important;
+}
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.cell {
+  .el-tag {
+    margin-right: 0px;
+  }
+}
+
+.small-padding {
+  .cell {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.fixed-width {
+  .el-button--mini {
+    padding: 7px 10px;
+    width: 60px;
+  }
+}
+
+.status-col {
+  .cell {
+    padding: 0 10px;
+    text-align: center;
+
+    .el-tag {
+      margin-right: 0px;
+    }
+  }
+}
+
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// dialog animation, this will cover all dialog style 
+// @keyframes dialog-fade-in {
+//     0% {
+//       transform: translate3d(100%, 0, 0);
+//       opacity: 0;
+      
+//     }
+//     100% {
+//       transform: translate3d(0, 0, 0);
+//       opacity: 1;
+//     }
+//   }
+//   @keyframes dialog-fade-out {
+//     0% {
+//       transform: translate3d(0, 0, 0);
+//       opacity: 1;
+//     }
+//     100% {
+//       transform: translate3d(100%, 0, 0);
+//       opacity: 0;
+//     }
+//   }
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+.el-range-editor.el-input__inner {
+  display: inline-flex !important;
+}
+// 隐藏横向滚动条
+.scrollbar-wrapper {
+  overflow-x: hidden !important;
+}
+
+.el-scrollbar__bar.is-vertical {
+  right: 0px;
+}
+
+.el-scrollbar {
+  height: 100%;
+}
+
+.config-user,.data-container{
+  .tab-content{
+    .el-table th{
+      background: #ddd;
+      padding: 4px 0;
+      color: #333;
+      >.cell{
+        font-weight: 900;
+      }
+    }
+  }
+}
+
+.el-table th{
+  padding: 4px 0;
+  line-height: 23px;
+  >.cell{
+    font-weight: 900;
+    color: #666666;
+  }
+}
+
+.el-form-item .el-select {
+  width: 100%;
+}

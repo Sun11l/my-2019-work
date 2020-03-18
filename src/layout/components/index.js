@@ -1,0 +1,5 @@
+export { default as appMain } from './appMain'
+export { default as theHeader } from './theHeader'
+export { default as theSidebar } from './theSidebar'
+export { default as theNavbar } from './theNavbar'
+export { default as TagsView } from './TagsView/index.vue'

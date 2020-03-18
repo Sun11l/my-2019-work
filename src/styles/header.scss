@@ -1,0 +1,21 @@
+.header{
+  font-size: 0;
+  margin-bottom: 16px;
+  .header-search {
+      >>> .el-input__inner {
+      border-radius: 0;
+      border: 1;
+      box-shadow: none !important;
+      vertical-align: middle;
+    }
+  }
+
+  >.item{
+    display: inline-block;
+    width: 50%;
+  }
+
+ .operator-btn{
+   text-align: right;
+ }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460" height="510" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0.6" in="SourceGraphic"/>
+  </filter>
+  <linearGradient spreadMethod="pad" y2="0" x2="1" y1="0" x1="1" id="svg_44">
+   <stop offset="0" stop-color="#fff"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+   <stop offset="1" stop-color="#000000"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="url(#svg_44)" id="canvas_background" height="512" width="462" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="1" x="3.63752" height="400" width="580"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000" opacity="0.1" transform="rotate(90 161.75750732421872,258.25814819335943) " id="svg_49" d="m138.50807,279.64363l23.24944,-42.77097l23.24944,42.77097l-46.49888,0z" fill-opacity="null" stroke-opacity="null" stroke-width="28" fill="#fff"/>
+  <path stroke="#000" opacity="0.4" transform="rotate(90 191.6324768066406,257.18811035156256) " id="svg_48" d="m61.1325,374.6881l130.5,-234.99999l130.5,234.99999l-260.99999,0z" fill-opacity="null" stroke-opacity="null" stroke-width="99" fill="#fff"/>
+  <path filter="url(#svg_1_blur)" stroke="#000" opacity="0.5" transform="rotate(90 223.7513275146484,258.6941528320313) " id="svg_1" d="m-9.75031,469.69546l233.50165,-422.00264l233.50166,422.00264l-29.18771,0l-14.59385,0l-14.59385,0l-14.59386,0l-14.59385,0l-14.59386,0l-14.59385,0l-204.31395,0l189.7201,0l-204.31395,0l189.72009,0l-102.15697,0l87.56312,0l-116.75083,0l102.15698,0l-131.34468,0l116.75082,0l-145.93853,0l131.34468,0l-160.53238,0l-72.96927,0l43.78156,0l160.53238,0l-29.18771,0l-29.1877,0l-29.18771,0l-29.1877,0l-29.18771,0l-29.18771,0l-58.37541,0z" stroke-width="23.5" fill="#fff"/>
+  <path stroke="#000" opacity="0.5" id="svg_2" d="m242.1774,230.20997l-24.03952,-16.34633l0,18.18865l-43.14235,0c-7.55394,0.66443 -20.59605,-9.42355 -35.09704,-22.80953c-14.60231,-12.69756 -31.29062,-28.27661 -53.63539,-28.69341l-15.03335,0l0,28.99527l15.03335,0c10.94335,-0.37451 24.43722,9.7558 38.80345,22.82796c5.35494,4.56657 10.75608,9.60458 16.47924,14.15324c-5.72316,4.55462 -11.11787,9.59866 -16.47924,14.16532c-14.36623,13.03579 -27.8601,23.19022 -38.78931,22.82168l-15.04748,0l0,29.03757l15.03975,0c22.2973,-0.36826 38.99206,-15.98954 53.64184,-28.66903c14.50228,-13.38622 28.53803,-16.47994 35.09833,-22.82772l43.12822,0l0,18.18847l24.03952,-16.32794l24.05357,-16.33995l-24.05357,-16.36424l-0.00002,-0.00001z" fill-opacity="null" stroke-opacity="null" stroke-width="14.5" fill="#fff"/>
+  <path id="svg_38" d="m788.51144,120.99725c-8.00016,54.00111 30.00062,13.00027 30.00062,13.00027" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="23.5" stroke="#000" fill="none"/>
+  <path id="svg_39" d="m-212.50906,134.99754" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="23.5" stroke="#000" fill="none"/>
+ </g>
+</svg>
